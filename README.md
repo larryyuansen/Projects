@@ -6,6 +6,6 @@
 </br>
 </br>
 # Java Work
-**JAVA**
-### miniservices with custom TCP protocols
-**JAVA based on phone (Android Mobile APP)**
+###JAVA
+**miniservices with custom TCP protocols**
+###JAVA based on phone (Android Mobile APP)
