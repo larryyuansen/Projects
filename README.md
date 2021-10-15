@@ -1,4 +1,4 @@
 # Projects
-python work
-  Scapy analysis
-  LSTM model to predict quantity of connection times
+python work\n
+\tScapy analysis \n
+\tLSTM model to predict quantity of connection times
