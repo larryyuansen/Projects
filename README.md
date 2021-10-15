@@ -7,5 +7,5 @@
 </br>
 # Java Work
 **JAVA**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; miniservices with custom TCP protocols </br>
+- miniservices with custom TCP protocols </br>
 **JAVA based on phone (Android Mobile APP)**
