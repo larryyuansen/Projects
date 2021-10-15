@@ -6,4 +6,5 @@ python work</br>
 </br>
 Java Work</br>
 &nbsp; JAVA </br>
-&nbsp;&nbsp; miniservices with custom TCP protocols
+&nbsp;&nbsp; miniservices with custom TCP protocols </br>
+&nbsp; JAVA based on phone (Android Mobile APP)
