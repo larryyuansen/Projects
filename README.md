@@ -1,4 +1,9 @@
 # Projects
 python work</br>
 &nbsp; Scapy analysis</br>
-&nbsp; LSTM model to predict quantity of connection times</br>
+&nbsp; LSTM model to predict quantity of connection times
+</br>
+</br>
+Java Work</br>
+&nbsp; JAVA </br>
+&nbsp;&nbsp; miniservices with custom TCP protocols
