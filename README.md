@@ -13,4 +13,6 @@
 # Java Work
 ### JAVA
 **miniservices with custom TCP protocols**
+- 1.
+- 2.
 ### JAVA based on phone (Android Mobile APP)
