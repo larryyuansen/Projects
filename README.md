@@ -1,7 +1,7 @@
 # Projects List
 
 ## python work
-**[Scapy analysis](Projects/Python/Security_Scan/)** 
+**[Scapy analysis](Python/Security_Scan/)** 
 
 **LSTM model to predict quantity of connection times**
 
