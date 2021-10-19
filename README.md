@@ -1,6 +1,6 @@
 # Projects List
 
-# python work
+## python work
 **Scapy analysis**
 
 **LSTM model to predict quantity of connection times**
@@ -8,7 +8,7 @@
 </br>
 </br>
 
-# Java Work
+## Java Work
 ### JAVA
 **miniservices with custom TCP protocols**
 
