@@ -1,6 +1,6 @@
 # Projects List
 
-## python work
+## Python Works
 **[Scapy analysis](Python/Security_Scan/)** 
 - An non-invasive reconnaissance diagnosis for IP camera (based on data of List of Sony IP Camera)
 
@@ -11,7 +11,7 @@
 </br>
 </br>
 
-## Java Work
+## Java Works
 ### JAVA
 #### [miniservices with custom TCP protocols](JAVA/Service/FirstModel)
 - Five mini-server deployed with simple and unique TCP protocal
