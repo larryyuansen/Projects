@@ -11,7 +11,7 @@
 ## Java Work
 ### JAVA
 #### [miniservices with custom TCP protocols](JAVA/Service/FirstModel)
-#### [mini-servlets practice](JAVA/Service/FirstModel)
+#### [mini-servlets practice](JAVA/Service/SecondModel)
 
 ### JAVA Mobile APP
 #### [JAVA based on phone (Android Mobile APP)](JAVA/AndroidStutio/Projects)
