@@ -13,4 +13,5 @@
 #### [miniservices with custom TCP protocols](JAVA/Service/FirstModel)
 #### [mini-servlets practice](JAVA/Service/FirstModel)
 
-### [JAVA based on phone (Android Mobile APP)](JAVA/AndroidStutio/Projects)
+### JAVA Mobile APP
+#### [JAVA based on phone (Android Mobile APP)](JAVA/AndroidStutio/Projects)
