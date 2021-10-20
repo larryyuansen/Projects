@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tencent.tencentmap.mapsdk.map.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@+id/fxnGroup">
+
+        </com.tencent.tencentmap.mapsdk.map.MapView>
+
+        <RelativeLayout
+            android:id="@+id/fxnGroup"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <RadioGroup
+                    android:id="@+id/rGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/dataRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Data" />
+
+                    <RadioButton
+                        android:id="@+id/databaseRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Database" />
+
+                </RadioGroup>
+
+                <RelativeLayout
+                    android:id="@+id/innerWindow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_alignParentStart="true">
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/startGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/distanceButton"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@mipmap/find_me" />
+
+            <Button
+                android:id="@+id/distanceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/areaButton"
+                android:layout_alignParentEnd="true"
+                android:text="distance" />
+
+            <Button
+                android:id="@+id/areaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/undoButton"
+                android:layout_alignParentEnd="true"
+                android:text="area" />
+
+            <Button
+                android:id="@+id/sLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/distanceButton"
+                android:text="save log" />
+
+            <Button
+                android:id="@+id/rLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="read log" />
+
+            <Button
+                android:id="@+id/undoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/clearMap"
+                android:layout_alignParentEnd="true"
+                android:text="undo" />
+
+            <Button
+                android:id="@+id/clearMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="clear all" />
+
+            <EditText
+                android:id="@+id/recordid"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/areaButton"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/dboutput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/startGPS"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:text="Databases:" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
