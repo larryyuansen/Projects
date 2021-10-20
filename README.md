@@ -20,4 +20,4 @@
 
 ### JAVA Mobile APP
 #### [JAVA based on phone (Android Mobile APP)](JAVA/AndroidStutio/Projects)
-- Demo application with location recording, and Map guiding, (with Tencent Map SDK)
+- Demo application with location recording and Map guiding (with Tencent Map SDK)
