@@ -4,6 +4,8 @@
 
 ## This diagnosis of Non-invasive aims to reconnaissance the IOT devices of some basic information.
 
+## Purpose
+
 - The Non-invasive action would not affact the performance of the devices (in general aspect of attack).
 - The diagnosis would tell some basic information that about the IOT device (listed below).
 - The diagnosis would use the following resources.
