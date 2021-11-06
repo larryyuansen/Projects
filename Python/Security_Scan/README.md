@@ -13,6 +13,12 @@
 ## How
 - The diagnosis is using the tool of Scapy.
 - The basic environment is Python.
-- The targets of the diagnosis is a set of Sony IP Cameras (provided by professor).
-- The outcomes would consists of following information:
-  ##### name of IOT device
+- The target of the diagnosis is a set of Sony IP Cameras (provided by the professor).
+- The outcomes would consist of following information:
+  ##### Name of IOT device
+  ##### The percentage of response devices
+  ##### IP(Internet Protocol)-ID(fragment counter) deployed method(include incremental, zero, random) for ICMP protocol
+  ##### The percentage of using or port 80
+  ##### IP-ID deployed method for TCP protocol
+  ##### The percentage of SYN (one-time synchronization) method deployed   
+  ##### The probably OS deployed on remote devices
