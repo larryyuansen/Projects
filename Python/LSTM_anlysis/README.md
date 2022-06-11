@@ -1,7 +1,7 @@
 # LSTM project
 
 
-- Using LDA (Latent Dirichlet Allocation) and LSTM (Long Short-Term Memory) modelling to predict and classification the further trend of network traffic. **
+- Using LDA (Latent Dirichlet Allocation) and LSTM (Long Short-Term Memory) modelling to predict and classification the further trend of network traffic. 
 - Research finds the feasibility of detecting further threats using existing data and prediction modelling. 
 - Collecting data from real-life (https://www.kaggle.com/crawford/computer-networktraffic). 
 - Preprocess the raw data by recalculating the connection times and dealing with the imbalanced data. 
